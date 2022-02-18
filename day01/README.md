@@ -12,6 +12,8 @@ copy helloos.img ..\z_tools\qemu\fdimage0.bin
 ..\z_tools\make.exe -C ..\z_tools\qemu
 ```
 
+<img src="https://raw.githubusercontent.com/ozuma/30daysOS/main/day01/qemu_boot.png" width="90%" />
+
 ## フロッピーディスクでの起動
 
 本に指示のある `imgtol.com` は16bitプログラムなので、Windows10では動かない。そのためWindowsXPの古いマシンを持ってきて、XP上で動かした。なおWindowsXPは、SP2までの場合USBメモリ4GB以上は扱えない。このためUSBメモリで持って行く場合は注意。1GBくらいの小容量のUSBメモリを用意しておくと良い。
@@ -20,3 +22,4 @@ copy helloos.img ..\z_tools\qemu\fdimage0.bin
 
 正常に書き込みが完了した後に、PCを再起動してFDから起動するとhello, worldが出た。機種はLenovo X220 + Windows XP Pro。
 
+<img src="https://raw.githubusercontent.com/ozuma/30daysOS/main/day01/fd_boot.jpg" width="40%" />
